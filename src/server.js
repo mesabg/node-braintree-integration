@@ -19,7 +19,7 @@ app.set('layouts', './views/layouts');
 app.set('layout', 'default');
 
 // Middlewares management
-app.use(bodyParser.json());
+app.use(bodyParser.json()); 
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
 // Set routes
