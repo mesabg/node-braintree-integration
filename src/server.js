@@ -5,6 +5,7 @@
 const express = require('express');
 const layout = require('express-layout');
 const bodyParser = require('body-parser');
+const path = require('path');
 require('dotenv').config();
 
 // Start Express server
